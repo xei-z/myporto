@@ -1,0 +1,9 @@
+# Mengabaikan folder uploads agar gambar testing lokal tidak masuk git
+assets/uploads/*
+!assets/uploads/.gitkeep
+
+# Ignores untuk sistem operasi & editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
